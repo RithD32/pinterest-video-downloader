@@ -1,0 +1,12 @@
+{
+  "name": "pinterest-video-downloader",
+  "version": "1.0.0",
+  "description": "Pinterest Video Downloader Web App",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "build": "mkdir -p client/build && echo 'Build step complete'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
